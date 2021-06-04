@@ -1,0 +1,191 @@
+# Fuzzer dictionary for the Magick Image File Format (MIFF)
+# by @nn_amon (Jeremy Heng)
+
+# Symbols
+sigils_equal="="
+sigils_opencomment="{"
+sigils_closecomment="}"
+sigils_colorhex="#"
+sigils_coloropen="rgb("
+sigils_colorclose=")"
+sigils_percent="%"
+sigils_colorcomma=","
+sigils_colon=":"
+sigils_formfeed="\x0c"
+sigils_newline="\x0a"
+sigils_ctrlz="\x1a"
+
+# Background Color
+header_background_color="background-color"
+
+# Border Color
+header_border_color="border-color"
+
+# Matte Color
+header_matte_color="matte-color"
+
+# Class
+header_class="class"
+class_directclass="DirectClass"
+class_pseudoclass="PseudoClass"
+
+# Colors
+header_colors="colors"
+
+# Colorspace
+header_colorspace="colorspace"
+colorspace_rgb="RGB"
+colorspace_srgb="sRGB"
+colorspace_cineonlog="cineonlog"
+colorspace_cmyk="cmyk"
+colorspace_gray="gray"
+colorspace_hsl="hsl"
+colorspace_hwb="hwb"
+colorspace_ohta="ohta"
+colorspace_rec601luma="rec601luma"
+colorspace_rec709luma="rec709luma"
+colorspace_rgb="rgb"
+colorspace_srgb="srgb"
+colorspace_transparent="transparent"
+colorspace_xyz="xyz"
+colorspace_ycbcr="ycbcr"
+colorspace_rec601ycbcr="rec601ycbcr"
+colorspace_rec709ycbcr="rec709ycbcr"
+colorspace_ycc="ycc"
+colorspace_yiq="yiq"
+colorspace_ypbpr="ypbpr"
+colorspace_yuv="yuv"
+
+# Columns
+header_columns="columns"
+
+# Compression
+header_compression="compression"
+compression_none="None"
+compression_zip="Zip"
+compression_bzip="BZip"
+compression_rle="RLE"
+compression_runlengthencoded="RunlengthEncoded"
+
+# Delay
+header_delay="delay"
+
+# Depth
+header_depth="depth"
+depth_eight="8"
+depth_sixteen="16"
+depth_thirtytwo="32"
+
+# Dispose
+header_dispose="dispose"
+dispose_zero="0"
+dispose_one="1"
+dispose_two="2"
+dispose_three="3"
+dispose_background="Background"
+dispose_none="None"
+dispose_previous="Previous"
+
+# Gamma
+header_gamma="gamma"
+
+# ID
+header_id="id"
+id_imagemagick="ImageMagick"
+
+# Iterations
+header_iterations="iterations"
+
+# Label
+header_label="label"
+
+# Matte
+header_matte="matte"
+matte_true="True"
+matte_false="False"
+
+# Montage
+header_montage="montage"
+montage_directory_newline="\x0a"
+montage_directory_null="\x00"
+montage_x="x"
+
+# Page
+header_page="page"
+
+# Profile ICC
+header_profileicc="profile-icc"
+
+# Red Primary
+header_redprimary="red-primary"
+primary_comma=","
+
+# Green Primary
+header_greenprimary="green-primary"
+
+# Blue Primary
+header_blueprimary="blue-primary"
+
+# White Point
+header_whitepoint="white-point"
+
+# Rendering Intent
+header_renderingintent="rendering-intent"
+renderingintent_saturation="saturation"
+renderingintent_perceptual="perceptual"
+renderingintent_absolute="absolute"
+renderingintent_relative="relative"
+
+# Resolution
+header_resolution="resolution"
+resolution_x="x"
+
+# Rows
+header_rows="rows"
+
+# Scene
+header_scene="scene"
+
+# Signature
+header_signature="signature"
+
+# Units
+header_units="units"
+units_ppi="pixels-per-inch"
+units_ppc="pixels-per-centimeter"
+
+# Profiles
+profile_icc="ICC"
+profile_icm="ICM"
+profile_iptc="IPTC"
+profile_8bim="8BIM"
+
+# Orientation
+header_orientation="orientation"
+orientation_unknown="Unknown"
+orientation_undefined="undefined"
+orientation_topleft="TopLeft"
+orientation_top_left="top-left"
+orientation_topright="TopRight"
+orientation_top_right="top-right"
+orientation_bottomright="BottomRight"
+orientation_bottom_right="bottom-right"
+orientation_bottomleft="BottomLeft"
+orientation_bottom_left="bottom-left"
+orientation_lefttop="LeftTop"
+orientation_left_top="left-top"
+orientation_righttop="RightTop"
+orientation_right_top="right-top"
+orientation_rightbottom="RightBottom"
+orientation_right_bottom="right-bottom"
+orientation_leftbottom="LeftBottom"
+orientation_left_bottom="left-bottom"
+
+# Version
+header_version="version"
+
+# Opaque
+header_opaque="opaque"
+
+
+
